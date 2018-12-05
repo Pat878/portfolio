@@ -1,0 +1,25 @@
+/*.nav-bar > ul {
+    margin-left: 0;
+}
+
+  .nav-bar > ul li {
+    display: inline-block;
+    padding: 10px;
+} */
+
+.navbar {
+  ul {
+    margin-left: 0;
+    margin-bottom: 0;
+    li {
+      display: inline-block;
+      padding: 10px;
+      a {
+        color: white;
+      }
+      &:first-of-type {
+        padding-left: 0;
+      }
+    }
+  }
+}
